@@ -56,7 +56,7 @@ This is one of my favorite theorems in all of mathematics. It's a very fundament
 
 #### Clock math
 
-How can we use this idea to build some new math? Well, you may be familiar with the idea of *modular arithmetic*. For instance, if it's 11 PM and 
+How can we use this idea to build some new math? Well, you may be familiar with the idea of *modular arithmetic*. For instance, if it's 11 PM and I ask you what time it'll be 6 hours from now, you'd say 5 AM. Implicitly, we're all familiar with doing math "mod 12," that is 
 
 - motivation
 - equivalence relations/partitions
