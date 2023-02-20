@@ -56,3 +56,9 @@
 - Stein + Shakachi
 - idk maybe Folland
 
+*Assorted books*
+
+- *Abel's Theorem in Problems and Solutions* by V. I. Arnold
+- *Primes of the Form $x^2+ny^2$*
+-  *Algebraic Curves and Riemann Surfaces for Undergraduates (The Theory of the Donut)*
+
