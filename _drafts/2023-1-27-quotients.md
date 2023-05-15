@@ -50,13 +50,22 @@ You may have noticed that $P$ is simply the collection of equivalence classes of
 
 **<u>Proof:</u>** Give this one a try on your own; it is not too complicated! I promise. Once you figure out what the appropriate partition or equivalence relation is, all that is needed is to verify the axioms. 
 
-This is one of my favorite theorems in all of mathematics. It's a very fundamentally simple concept to state and to prove, but much of mathematics can be derived from this idea. This includes the idea of a quotient, which we can finally define. 
+This is one of my favorite theorems in all of mathematics. It's a very fundamentally simple concept to state and to prove, but much of mathematics can be derived from this idea - complexity borne of simplicity! This includes the idea of a quotient, which we can finally define. 
 
 **Definition:** Given a set $S$ and an equivalence relation $\sim$, the ***quotient set of $S$ under $\sim$*** is the collection of all equivalence classes of $S$ under $\sim$. This partition is often denoted by $S/{\sim}$. 
+
+#### OK? So?
+
+Why is this important? Well, the idea behind a quotient of some mathematical structure is isolate some "subproperty" that we care about, and divide the structure into smaller parts according to this subproperty. The notion of an equivalence relation partitioning a set into equivalence classes is the formal way of stating that fact. With the Skittles example, we saw that they had this property called "color", and divided up the Skittles based on the subsets of Skittles which shared that same property. This proves to be useful in algebra, where we define algebraic structures and are interested in how we break them up 
+
 
 #### Clock math
 
 How can we use this idea to build some new math? Well, you may be familiar with the idea of *modular arithmetic*. For instance, if it's 11 PM and I ask you what time it'll be 6 hours from now, you'd say 5 AM. Implicitly, we're all familiar with doing math "mod 12," that is 
+
+
+
+**Definition:** Given integers $a,b$, we say $a$ **is congruent to** $b$ **modulo** $n$ if $n\mid (b-a)$. 
 
 - motivation
 - equivalence relations/partitions
