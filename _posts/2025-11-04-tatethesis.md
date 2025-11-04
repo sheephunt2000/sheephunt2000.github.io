@@ -44,7 +44,7 @@ So it seemed that Matchett's contributions were an important part of the story; 
 The next few links were some LinkedIn profiles (probably not useful for someone who was PhD age in 1946...) but then I found a link to Chapter IV of a book by Della Dumbaugh and Joachim Schwermer entitled [Emil Artin and Beyond - Class Field Theory and $L$-functions](https://ems.press/books/hem/209/contents). This chapter, entitled "Margaret Matchett: Artin's student at Indiana and her thesis," contained both historical and mathematical background to her life. Indeed, the epigraph of the chapter contained part of Tate's earlier quote above, while containing the full text of Margaret Matchett's thesis. I feel a bit uncomfortable putting a PDF on this blog, but it's not so hard to find and contains some fascinating background information, summarized here. 
 
 <figure>
-  ![Portrait of Margaret Matchett, undated](/assets/matchett.png)
+  <img src="/assets/matchett.png" alt="Portrait of Margaret Matchett, undated">
   <figcaption>Portrait of Margaret Matchett from Dumbaugh/Schweremer, undated</figcaption>
 </figure>
 
@@ -84,10 +84,9 @@ At this point, I was very thoroughly engaged in this story of a woman I'd never 
 So it appeared that her son had entered the family business. Googling turned up [an interview with Andrew Matchett](http://sections.maa.org/wisconsin/kywm/Matchett.pdf), an installment of "Know Your Wisconsin Mathematician," dated circa 2014. It's a good interview, complete with a very educated horse: 
 
 <figure>
-  ![A horse learning calculus](/assets/horsecalc.png)
+  <img src="/assets/horsecalc.png" alt="A horse learning calculus">
   <figcaption>Probably reading about saddle points...</figcaption>
 </figure>
-
 I did find one line in particular amusing: 
 
 > **What was the influence of your family on your education?**
@@ -103,4 +102,4 @@ Immediately, I knew where I had heard the name Matchett from, all the way at the
 
 ------
 
-(Though, my Rutgers pride would not let me end without me mentioning that Phillip Matchett Wood is a Scarlet Knight ([PhD, 2009](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=144075)). RU Rah Rah!)
+(Though, my Rutgers pride would not let me end without me mentioning that Philip Matchett Wood is a Scarlet Knight ([PhD, 2009](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=144075)). RU Rah Rah!)
