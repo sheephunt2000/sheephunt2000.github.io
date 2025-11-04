@@ -1,86 +1,93 @@
-
+---
+layout: post
+title: On an interesting Galois quote
+author: Stephen Hu
+date: 2025-08-24
+categories: galois
+katex: true
+---
 
 [Milne ANT Ex. 7-5]
-	Find all the quadratic extensions of \(_2\). Hint: there are exactly 7 (up to \(_2\)-isomorphism). 
+	Find all the quadratic extensions of $\mathbb Q_2$. Hint: there are exactly 7 (up to $\QQ_2$-isomorphism). 
 
 	
 <div class="lemma">
 
-All quadratic extensions of a field \(F\) with \((F) 2\) are of the form \(F()\), for \(d\) not a square in \(F\).
+All quadratic extensions of a field $1$ with $1$ are of the form $F()$, for $d$ not a square in $F$.
 
 </div>
 
 	
 <div class="proof">
 
-If \(K/F\) is a quadratic extension, since \((F) 2\), \(K/F\) is seperable. Thus, it is isomorphic to \(F[x]/(p(x))\) for \(p(x)\) an irreducible monic quadratic polynomial. Then the result follows from the quadratic formula: the zeros of a monic quadratic polynomial \(x^2+bx+c\) are \[x=}{2},\] so to obtain an extension of degree 2 it is sufficient and necessary to adjoin the square root \(\), for \(b^2-4c\) not a square.
+If $K/F$ is a quadratic extension, since $(F) 2$, $K/F$ is seperable. Thus, it is isomorphic to $F[x]/(p(x))$ for $p(x)$ an irreducible monic quadratic polynomial. Then the result follows from the quadratic formula: the zeros of a monic quadratic polynomial $x^2+bx+c$ are \[x=}{2},\] so to obtain an extension of degree 2 it is sufficient and necessary to adjoin the square root $$, for $b^2-4c$ not a square.
 
 </div>
 
-	Since \((_2)=0\) (as any extension of \(\) must be), a quadratic extension of \(_2\) must be of the form \(_2( d)\) for some \(d_2^*\). In particular, \(d\) is an element of \(_2^*(_2^*)^2\). 
+	Since $(_2)=0$ (as any extension of $$ must be), a quadratic extension of $_2$ must be of the form $_2( d)$ for some $d_2^*$. In particular, $d$ is an element of $_2^*(_2^*)^2$. 
 	
 <div class="lemma">
 
-Let \(a,b_2^*(_2^*)^2\). Then \(_2()_2()\) if and only if \(a=x^2 b\) for some \(x_2^*\).
+Let $a,b_2^*(_2^*)^2$. Then $_2()_2()$ if and only if $a=x^2 b$ for some $x_2^*$.
 
 </div>
 
 	
 <div class="proof">
 
-(\(\)) Immediate, since \(= x\). 
+($$) Immediate, since $= x$. 
 
-		(\(\)) Given a \(_2\)-isomorphism \(:_2()_2()\), we have that \(()=u+v\) for some unique \(u,v_2\). So \[0=(0)=(()^2-a)=(u+v b)^2-a.\] Hence \(a=(u+v)^2=(u^2+bv^2)+(2uv)\), so exactly one of \(u\), \(v\) is 0. (They cannot both be 0 because \(a 0\).) If \(v=0\) then \(a=u^2_2\), a contradiction since we assumed \(a\) was not a square. So \(u=0\), and \(a=v^2b\), as desired.
+		($$) Given a $_2$-isomorphism $:_2()_2()$, we have that $()=u+v$ for some unique $u,v_2$. So \[0=(0)=(()^2-a)=(u+v b)^2-a.\] Hence $a=(u+v)^2=(u^2+bv^2)+(2uv)$, so exactly one of $u$, $v$ is 0. (They cannot both be 0 because $a 0$.) If $v=0$ then $a=u^2_2$, a contradiction since we assumed $a$ was not a square. So $u=0$, and $a=v^2b$, as desired.
 
 </div>
 
 	
-		This is not specific to \(_2\); this proof works in general whenever the characteristic of the base field is not 2. 
+		This is not specific to $_2$; this proof works in general whenever the characteristic of the base field is not 2. 
 	
 
-	So to classify all possible quadratic extensions of \(_2\), we should consider the group \(_2^*/(_2^*)^2\); i.e. all elements of \(_2^*\) up to a square. Given \(x_2^*\), we can uniquely decompose \(x=2^{v_2(x)}u\) for a unit \(u_2^*\), so we have that \(_2^*_2^*\). Squaring gets us \(x^2=2^{2v_2(x)}u^2\), and as this decomposition is unique, we see that \((_2^*)^2 2(_2^*)^2\). Hence we have \[_2^*/(_2^*)^2 (/2)(_2^*/(_2^*)^2).\] 
-	So it is sufficient to study \(_2^*/(_2^*)^2\). Here we can use a specific form of Hensel's lemma. 
+	So to classify all possible quadratic extensions of $_2$, we should consider the group $_2^*/(_2^*)^2$; i.e. all elements of $_2^*$ up to a square. Given $x_2^*$, we can uniquely decompose $x=2^{v_2(x)}u$ for a unit $u_2^*$, so we have that $_2^*_2^*$. Squaring gets us $x^2=2^{2v_2(x)}u^2$, and as this decomposition is unique, we see that $(_2^*)^2 2(_2^*)^2$. Hence we have \[_2^*/(_2^*)^2 (/2)(_2^*/(_2^*)^2).\] 
+	So it is sufficient to study $_2^*/(_2^*)^2$. Here we can use a specific form of Hensel's lemma. 
 	
 <div class="theorem">
 
 [Hensel's lemma]
-		Let \(A\) be a complete discrete valuation ring, \(f(x) A[x]\), with \(a A\) satisfying \[|f(a)|<|f'(a)|^2.\] Then there is a unique \( A\) with \(f()=0\) in \(A\) and \(|-a||{f'(a)^2}|\).
+		Let $A$ be a complete discrete valuation ring, $f(x) A[x]$, with $a A$ satisfying \[|f(a)|<|f'(a)|^2.\] Then there is a unique $ A$ with $f()=0$ in $A$ and $|-a||{f'(a)^2}|$.
 
 </div>
 
 	
 <div class="lemma">
 
-		\(u_2^*\) is a square in \(_2^*\) if and only if \(u 1\).
+		$u_2^*$ is a square in $_2^*$ if and only if $u 1$.
 
 </div>
 
 	
-			Note that if \(u=v^2\) for \(v_2\), we have \(1=|u|=|v|^2\), so \(v\) itself must be in \(_2^*\). Thus requiring \(u\) to be a square in \(_2^*\) is not so restrictive. 
+			Note that if $u=v^2$ for $v_2$, we have $1=|u|=|v|^2$, so $v$ itself must be in $_2^*$. Thus requiring $u$ to be a square in $_2^*$ is not so restrictive. 
 	
 	
 <div class="proof">
 
-(\(\)) Recall that \(_2/8_2/8\). (To see this, consider the mod 8 reduction map \(:_2/8\). Then \(=8_2\), and we are done by the first isomorphism theorem.) Hence if \(u\) is a square, reducing mod \(8_2\) gets us that \(u1\), since 1 is the only quadratic residue in \((/8)^*\). 
+($$) Recall that $_2/8_2/8$. (To see this, consider the mod 8 reduction map $:_2/8$. Then $=8_2$, and we are done by the first isomorphism theorem.) Hence if $u$ is a square, reducing mod $8_2$ gets us that $u1$, since 1 is the only quadratic residue in $(/8)^*$. 
 
-		(\(\)) Let \(u1+8_2\) and \(f(x)=x^2-u\). If \(a=1\), we can see \(|f(a)|=|1-u|{8}\) and \(|f'(a)|^2=|2|^2={4}\). By our version of Hensel's lemma, we can lift \(a=1\) to a unique \(_2\) which satisfies \(u=^2\). By our remark, we conclude that \(\) is actually in \(_2^*\), meaning \(u\) is a square in \(_2^*\).
+		($$) Let $u1+8_2$ and $f(x)=x^2-u$. If $a=1$, we can see $|f(a)|=|1-u|{8}$ and $|f'(a)|^2=|2|^2={4}$. By our version of Hensel's lemma, we can lift $a=1$ to a unique $_2$ which satisfies $u=^2$. By our remark, we conclude that $$ is actually in $_2^*$, meaning $u$ is a square in $_2^*$.
 
 </div>
 
-	Given the mod 8 reduction map \(:_2^*(/8)^*\) induced by \(:_2/8\), we note that \(=1+8_2\). Hence by Lemma , \(\) induces an isomorphism \(_2^*/(_2^*)^2(/8)^*\). Putting all of this together, we see 
-	\[_2^*/(_2^*)^2 (/2)(_2^*/(_2^*)^2)(/2)(/8)^*.\] In particular, there are \(|_2^*/(_2^*)^2|-1=7\) quadratic extensions of \(_2\) up to isomorphism, as the hint tells us. (We discard the class representing 1, as that is not actually a quadratic extension.) To find explicit representatives, we note our first \(/2\) comes from the free group generated by \(2\), which descends to the class of \(2\) in \(_2^*/(_2^*)^2\). \((/8)^*\) is generated by \(-1\) and \(3\), so by picking representatives of \(_2^*/(_2^*)^2\) we see our 7 quadratic extensions of \(_2\) are \(_2()\), where \(x\{-1, 3, 2, 6\}\).
+	Given the mod 8 reduction map $:_2^*(/8)^*$ induced by $:_2/8$, we note that $=1+8_2$. Hence by Lemma , $$ induces an isomorphism $_2^*/(_2^*)^2(/8)^*$. Putting all of this together, we see 
+	\[_2^*/(_2^*)^2 (/2)(_2^*/(_2^*)^2)(/2)(/8)^*.\] In particular, there are $|_2^*/(_2^*)^2|-1=7$ quadratic extensions of $_2$ up to isomorphism, as the hint tells us. (We discard the class representing 1, as that is not actually a quadratic extension.) To find explicit representatives, we note our first $/2$ comes from the free group generated by $2$, which descends to the class of $2$ in $_2^*/(_2^*)^2$. $(/8)^*$ is generated by $-1$ and $3$, so by picking representatives of $_2^*/(_2^*)^2$ we see our 7 quadratic extensions of $_2$ are $_2()$, where $x\{-1, 3, 2, 6\}$.
 	
 	
 <div class="lemma">
 
-For \(p>2\), \(_p^*_{p-1}(1+p_p)\), where \(_{p-1}\) are the \((p-1)\)st roots of unity. For \(p=2\), \(_p^*(/2)_p\).
+For $p>2$, $_p^*_{p-1}(1+p_p)$, where $_{p-1}$ are the $(p-1)$st roots of unity. For $p=2$, $_p^*(/2)_p$.
 
 </div>
 
 	
 <div class="proof">
 
-Ordinarily, for a prime \(p\), we could consider the natural reduction-mod-\(p\) map \(:_p^*_p^*\). This map fits into a short exact sequence \[1 1+p_p_p^*{}_p^* 1.\] Consider \(f(x)=x^{p-1}-1\), which has derivative \(f'(x)=(p-1)x^{p-2}0 p\). Since all of \(_p^*\) are zeros of \(f(x)\), they can each be lifted uniquely to \(_p^*\), and form the \((p-1)\)st roots of unity \(_{p-1}\). This lifting induces a splitting morphism from \(_p^*\) to \(_p^*\), and thus the exact sequence is split. So we have \(_p^*_{p-1}(1+p_p)\).
+Ordinarily, for a prime $p$, we could consider the natural reduction-mod-$p$ map $:_p^*_p^*$. This map fits into a short exact sequence \[1 1+p_p_p^*{}_p^* 1.\] Consider $f(x)=x^{p-1}-1$, which has derivative $f'(x)=(p-1)x^{p-2}0 p$. Since all of $_p^*$ are zeros of $f(x)$, they can each be lifted uniquely to $_p^*$, and form the $(p-1)$st roots of unity $_{p-1}$. This lifting induces a splitting morphism from $_p^*$ to $_p^*$, and thus the exact sequence is split. So we have $_p^*_{p-1}(1+p_p)$.
 
 </div>
 
