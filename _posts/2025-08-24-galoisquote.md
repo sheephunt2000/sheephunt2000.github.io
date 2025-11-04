@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On an interesting Galois quote
+slug: on-an-interesting-galois-quote
 author: Iris Hu
 date: 2025-08-24
 categories: galois

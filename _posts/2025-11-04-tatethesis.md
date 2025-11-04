@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A historical rabbithole
+slug: a-historical-rabbithole
 author: Iris Hu
 date: 2025-11-04
 categories: [tate, Fourier, numbertheory, history]
