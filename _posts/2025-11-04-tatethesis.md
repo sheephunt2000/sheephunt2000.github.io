@@ -3,6 +3,7 @@ layout: post
 title: A historical rabbithole
 author: Iris Hu
 date: 2025-11-04
+categories: tate, Fourier, numbertheory, history
 katex: true
 ---
 
