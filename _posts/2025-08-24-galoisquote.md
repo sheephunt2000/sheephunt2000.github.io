@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On an interesting Galois quote
-author: Stephen Hu
+author: Iris Hu
 date: 2025-08-24
 categories: galois
 katex: true
