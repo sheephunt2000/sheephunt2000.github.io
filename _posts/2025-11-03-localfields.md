@@ -1,11 +1,19 @@
 ---
 layout: post
-title: On an interesting Galois quote
-author: Stephen Hu
-date: 2025-08-24
-categories: galois
+title: Local field
+author: Iris Hu
+date: 2025-11-03
+categories: 
 katex: true
 ---
+$$
+\def\RR{\mathbb{R}}
+\def\NN{\mathbb{N}}
+\def\QQ{\mathbb{Q}}
+\def\vect#1{\mathbf{#1}}
+\def\abs#1{\left|#1\right|}
+$$
+
 
 [Milne ANT Ex. 7-5]
 	Find all the quadratic extensions of $\mathbb Q_2$. Hint: there are exactly 7 (up to $\QQ_2$-isomorphism). 

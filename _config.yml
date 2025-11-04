@@ -37,14 +37,6 @@ plugins:
 kramdown: 
   math_engine: katex
 katex: true
-katex_options:
-  macros:
-    "\\RR": "\\mathbb{R}"
-    "\\NN": "\\mathbb{N}"
-    "\\QQ": "\\mathbb{Q}"
-    "\\vect": "\\mathbf{#1}"
-    "\\abs": "\\left|#1\\right|"
-
 
 hide_search: true # Gets rid of DuckDuckGo search 
 
