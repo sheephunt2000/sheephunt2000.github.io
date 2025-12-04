@@ -40,4 +40,6 @@ It's a standard fact that all subgroups of an abelian group are normal. (No diff
 
 > **Theorem ([Baer, 1933](https://doi.org/10.1515/9783111561769-004)).** Every Hamiltonian group $G$ is of the form $$G=Q_8\times(\mathbb Z/2)^k\times D$$ for some non-negative integer $k$, where $D$ is a torsion abelian group with all elements of odd order. 
 
+(Paywalled link, but can be bypassed via the usual means.) 
+
 So in a sense, $Q_8$ is the "only" such non-abelian group with all normal subgroups; any other such group can be built out of $Q_8$ by adding on some abelian torsion, but not any additional non-abelian "components." 
